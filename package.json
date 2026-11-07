@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Fake News Detection and Digital Literacy Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "mern",
+    "express",
+    "mongodb",
+    "fake-news",
+    "digital-literacy"
+  ],
+  "author": "Usha Kiranmayee",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.18.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
